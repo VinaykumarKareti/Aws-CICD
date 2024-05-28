@@ -1,8 +1,8 @@
 #!/bin/bash
 echo "Hi"
-containerId=$(docker ps | awk 'NR==2 {print $1}')
-echo "--------------------------------------------Container ID: $containerId"
-docker rm $containerId
+# containerId=$(docker ps | awk 'NR==2 {print $1}')
+# echo "--------------------------------------------Container ID: $containerId"
+# docker rm $containerId
 
 
 
